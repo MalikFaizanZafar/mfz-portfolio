@@ -15,10 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
   noice,
-  tesla,
-  shopify,
+  luckytruck,
+  citrusbits,
+  cloudtek,
+  zixsol,
   carrent,
   jobit,
   tripguide,
@@ -131,7 +132,7 @@ const experiences = [
   {
     title: "Team Lead Software Enginner",
     company_name: "Luckytruck - McHenry, Illinois",
-    icon: tesla,
+    icon: luckytruck,
     iconBg: "#E6DEDD",
     date: "August 2021 - July 2022",
     points: [
@@ -144,7 +145,7 @@ const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "Citrusbits - Pasadena, California",
-    icon: shopify,
+    icon: citrusbits,
     iconBg: "#383E56",
     date: "August 2020 - July 2022",
     points: [
@@ -157,7 +158,7 @@ const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "Cloudtek - Islamabad, Pakistan",
-    icon: meta,
+    icon: cloudtek,
     iconBg: "#E6DEDD",
     date: "Jan 2019 - July 2020",
     points: [
@@ -170,7 +171,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "ZixSols - Islamabad, Pakistan",
-    icon: meta,
+    icon: zixsol,
     iconBg: "#E6DEDD",
     date: "September 2017 - December 2018",
     points: [

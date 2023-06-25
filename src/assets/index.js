@@ -26,6 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import noice from "./company/noice.svg";
+import luckytruck from "./company/luckytruck.png";
+import citrusbits from "./company/citrusbits.png";
+import cloudtek from "./company/cloudtek.png";
+import zixsol from "./company/zixsol.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,5 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
-  noice
+  noice,
+  luckytruck,
+  citrusbits,
+  cloudtek,
+  zixsol
 };
