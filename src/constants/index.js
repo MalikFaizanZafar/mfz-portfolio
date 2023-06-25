@@ -147,7 +147,7 @@ const experiences = [
     company_name: "Citrusbits - Pasadena, California",
     icon: citrusbits,
     iconBg: "#383E56",
-    date: "August 2020 - July 2022",
+    date: "August 2020 - July 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

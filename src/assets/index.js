@@ -35,6 +35,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import mfz from "./mfz.png";
+
 export {
   logo,
   backend,
@@ -68,5 +70,6 @@ export {
   luckytruck,
   citrusbits,
   cloudtek,
-  zixsol
+  zixsol,
+  mfz
 };
