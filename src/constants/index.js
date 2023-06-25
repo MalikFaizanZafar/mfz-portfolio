@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  noice,
   tesla,
   shopify,
   carrent,
@@ -42,21 +42,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Frontend Developer",
+    icon: backend,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Full Stack Developer",
+    icon: mobile,
   },
+  {
+    title: "React Native Developer",
+    icon: mobile,
+  }
 ];
 
 const technologies = [
@@ -116,37 +116,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Senior Software Engineer",
+    company_name: "NOICE - Jakarta, Indonesia",
+    icon: noice,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, Material UI, Redux and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing & Implementing Microservices on Backend to provide highly performant APIs for consumption of mobile application",
+      "Participating in sprint planning, system design, code reviews, and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Team Lead Software Enginner",
+    company_name: "Luckytruck - McHenry, Illinois",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed and maintained web applications using React.js, Next.js, Tailwind and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed & Implemented backend to provide highly performant APIs for consumption of web application",
+      "Participating in sprint planning, system design, code reviews, and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Senior Software Engineer",
+    company_name: "Citrusbits - Pasadena, California",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2020 - July 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +155,24 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Senior Software Engineer",
+    company_name: "Cloudtek - Islamabad, Pakistan",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2019 - July 2020",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "ZixSols - Islamabad, Pakistan",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "September 2017 - December 2018",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
