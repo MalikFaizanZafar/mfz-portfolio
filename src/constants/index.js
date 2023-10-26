@@ -308,28 +308,29 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "It was a pleasure working with Malik, and I can vouch that he is one of the most dedicated and hard working team member. He would always step up and take responsibilities when needed. He is never shy of expressing his opinions and gives valuable inputs in every discussion. He is also a good multitasker and can take ownership of several features.",
+    name: "Tirtha Ghosh",
+    designation: "Engineering Manager",
+    company: "Noice",
+    image: "https://media.licdn.com/dms/image/C4E03AQFKl6hqKYcFEw/profile-displayphoto-shrink_100_100/0/1517507088879?e=1703721600&v=beta&t=0B8xvq-NO6p1QIg3he0EUIbp7SuzU4erZNnvpd6NwEM",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      `Faizan has been an amazing employee and team member in his role as a Full Stack Developer in our Engineering team. He has done some outstanding work across the
+      domains of React,NodeJS, GraphQL, Postgres, AWS, Python, Django, Web Scraping/Crawling and Selenium etc. He's a creative problem solver who is language agnostic when it comes to building solutions. It has been a pleasure to have him as a member of our team.`,
+    name: "Haseeb Khizar",
+    designation: "Technical Lead",
+    company: "Luckytruck",
+    image: "https://media.licdn.com/dms/image/D4D03AQEJxZLQZ2VqHQ/profile-displayphoto-shrink_100_100/0/1668662515901?e=1703721600&v=beta&t=XXXHObPRWfXOcYjCiGQeVSxEi3Jp-dXUNXxd1zCuhYg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
