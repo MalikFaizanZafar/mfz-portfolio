@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   noice,
+  kitrum,
   luckytruck,
   citrusbits,
   cloudtek,
@@ -118,16 +119,67 @@ const technologies = [
 const experiences = [
   {
     title: "Senior Software Engineer",
+    company_name: "Kitrum - Florida, United States",
+    icon: kitrum,
+    iconBg: "#31c6c9",
+    date: "August 2022 - Present",
+    points: [
+      "Designed and developed an internal tool for Matchmakers to manage clients and dates which added a lot of value to the platform.",
+      "Migrated legacy PHP app to faster React and Nodejs Application which greatly improved user experience and platform performance.",
+      "Migrated Users data to ElasticSearch for faster search experience and higher performance.",
+      "Continuously delivered value, extended the team and supported team members in the war environment.",
+      "Fixed bugs and problems across the entire codebase in an efficient, timely manner.",
+    ],
+    teamStructure: "20+ people: 1 VP Engineering, 1 Engineering Manager, 1 Architect, 10+ Full Stack Engineers, 3 QAs, 1 UI/UX Engineer,  2 Project Managers,  1 Product Owner etc.",
+    tools: [
+      "React",
+      "Next.js",
+      "TailwindCSS",
+      "Material UI",
+      "PHP",
+      "Typescript",
+      "MySQL",
+      "Redis",
+      "Bull",
+      "Docker",
+      "AWS",
+      "Microservices",
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
     company_name: "NOICE - Jakarta, Indonesia",
     icon: noice,
     iconBg: "#383E56",
     date: "March 2022 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js, Material UI, Redux and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Designing & Implementing Microservices on Backend to provide highly performant APIs for consumption of mobile application",
-      "Participating in sprint planning, system design, code reviews, and providing constructive feedback to other developers.",
+      "Performed an integral role in design and development of Live Service which is the core component of the platform.",
+      "Architected, developed and incorporated the gamification module in the platform which is the core revenue generator for the platform.",
+      "Proposed the use of in memory datastore i.e Redis for faster load time and optimization and user experience consequently which was a big success.",
+      "Incorporated redis as a caching layer into the codebase to improve the API’s overall performance.",
+      "Proposed the use of Pubnub to replace firebase as medium for server to client communication which was a huge success.",
+      "Migrated the server to client communication architecture from firebase to Pubnub which greatly improved user experience.",
+      "Improved test coverage of the codebase up to 95%."
     ],
+    tools: [
+      "React",
+      "Next.js",
+      "TailwindCSS",
+      "Nest.js",
+      "Node.js",
+      "Typescript",
+      "TypeORM",
+      "ElasticSearch",
+      "Redis",
+      "Agora",
+      "PubNub",
+      "Firebase",
+      "MySQL",
+      "MongoDB",
+      "Microservices",
+      "Jenkins",
+      "Google Cloud"
+    ]
   },
   {
     title: "Team Lead Software Enginner",
@@ -136,11 +188,29 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2021 - July 2022",
     points: [
-      "Developed and maintained web applications using React.js, Next.js, Tailwind and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Designed & Implemented backend to provide highly performant APIs for consumption of web application",
-      "Participating in sprint planning, system design, code reviews, and providing constructive feedback to other developers.",
+      "Improved the verification module by scrapping trucking companies data from third party platforms into inhouse database which improved the verification process immensely.",
+      "Built a tool to automate the process of getting an insurance quote from third party platforms which reduced the need for the manual way of doing the same process.",
+      "Designed and developed Failure Identification Module for notifying the stakeholders in case of a quotation process failure by incorporating slack notifications and API logging resulting in earlier identification of problems and their resolution.",
+      "Used Next.js to improve SEO of the company’s website which greatly improved outreach of the platform.",
+      "Introduced the culture of unit testing which increased test coverage to a great number eventually resulting in much less bugs.",
+      "Forced the implementation of product documentation to ensure a robust software development process.",
+      "Was able to cover up for a Python Developer successfully in critical situations without impacting business goals."
     ],
+    tools: [
+      "React",
+      "Next.js",
+      "TailwindCSS",
+      "Prime React",
+      "Node.js",
+      "Python",
+      "Django",
+      "Selenium",
+      "Prisma",
+      "Postgres",
+      "Docker",
+      "Lamdas",
+      "AWS"
+    ]
   },
   {
     title: "Senior Software Engineer",
@@ -149,11 +219,32 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2020 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Named employee of the month, employee of quarter multiple times.",
+      "Worked as Backend Team Lead for the top project of the company.",
+      "Introduced technologies like GraphQL, Redis , Microservices, GraphDB to the company which added more value to the company development skill set",
+      "Implemented design and development of more than 5 web applications using React, Angular, Node.js etc",
+      "Learned and worked with Agora and used it in two streaming applications for the company and in the process trained junior developers about agora",
+      "Introduced the culture of unit testing to improve test coverage and code robustness.",
+      "Developed an npm package to be reusable for other company projects.",
+      "Introduced and enforced the culture of project documentation for robust software development.",
+      "Introduced best practices and coding standards and monitored projects to make sure processes are followed."
     ],
+    tools: [
+      "React",
+      "Next.js",
+      "Angular",
+      "Material UI",
+      "TailwindCSS",
+      "GraphQL",
+      "Node.js",
+      "Typescript",
+      "Agora",
+      "Redis",
+      "MySQL",
+      "MongoDB",
+      "CosmosDB",
+      "Azure"
+    ]
   },
   {
     title: "Senior Software Engineer",
@@ -162,11 +253,30 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2019 - July 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Employee of the Year 2019.",
+      "Promoted to the position of Senior Software Engineer within the first three months of joining.",
+      "Assigned to major company projects resulting in generation of stable revenue streams.",
+      "Learned a lot of new technologies and provided training to other developers thus improving the company's overall skillset.",
+      "Worked as Team Lead on the company's Inhouse product which was an  IOTs-based application.",
+      "Learned to effectively communicate with clients."
     ],
+    tools: [
+      "React",
+      "Angular",
+      "Vue",
+      "Typescript",
+      "Node.js",
+      "PHP",
+      "Pythong",
+      "Django",
+      "Laravel",
+      "GraphQL",
+      "Docker",
+      "MongoDB",
+      "Postgres",
+      "MySQL",
+      "AWS"
+    ]
   },
   {
     title: "Software Engineer",
@@ -175,11 +285,23 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2017 - December 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     "Learned a lot of new technologies in a very short time to enhance the company's overall technologies expertise thus attracting more clients.",
+     "Onboarded myself in a very limited time and got the responsibility to work on the main product",
+     "Mentored junior developers, improving team productivity and overall knowledge sharing.",
+     "Worked as the senior developer when another senior left the company to make sure continuous development and delivery of the on going projects",
+     "Lead and participated in design, development and implementation of three new projects adhering to best practices, coding standards and architectural guidelines",
+     "Learned best practices and coding standards thus improving my overall efficiency and productivity."
     ],
+    tools: [
+      "Vue",
+      "Nuxt.js",
+      "React",
+      "Angular",
+      "Bootstrap",
+      "Material UI",
+      "Node.js",
+      "Firebase"
+    ]
   },
 ];
 

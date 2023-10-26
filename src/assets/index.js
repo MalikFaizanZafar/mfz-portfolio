@@ -30,7 +30,7 @@ import luckytruck from "./company/luckytruck.png";
 import citrusbits from "./company/citrusbits.png";
 import cloudtek from "./company/cloudtek.png";
 import zixsol from "./company/zixsol.png";
-
+import kitrum from "./company/kitrum.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -71,5 +71,6 @@ export {
   citrusbits,
   cloudtek,
   zixsol,
-  mfz
+  mfz,
+  kitrum
 };

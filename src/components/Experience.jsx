@@ -41,7 +41,7 @@ const ExperienceCard = ({ experience }) => {
           {experience.company_name}
         </p>
       </div>
-
+      <p className='text-white text-[18px] font-bold'>Achivements: </p>
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
           <li
@@ -52,6 +52,17 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <p className='text-white text-[18px] font-bold'>Tech Stack: </p>
+        <div className='flex flex-wrap gap-2'>
+          {experience.tools?.map((tool) => (
+            <p
+              key={`${name}-${tool}`}
+              className={`text-[14px] pink-text-gradient`}
+            >
+              #{tool}
+            </p>
+          ))}
+        </div>
     </VerticalTimelineElement>
   );
 };
