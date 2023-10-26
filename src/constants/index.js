@@ -335,68 +335,147 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Feed U",
+    link: 'https://www.feeduapp.com/',
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      "A dynamic food gifting platform for college students to send and receive the foods they love from their favorite local college-town restaurants AND national merchants.",
+    tools: [
+      "React",
+      "Next.js",
+      "Material UI",
+      "TailwindCSS",
+      "MongoDB",
+      "Nest.js",
+      "Azure"
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Erupt: News & Debate",
+    link: 'https://citrusbits.com/portfolio/erupt/',
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
+      "Erupt is a livestream audio & video platform for passionate debate and free-flowing discussion among the voices of the future.",
+      tools: [
+        "React",
+        "TailwindCSS",
+        "MongoDB",
+        "Redis",
+        "Nest.js",
+        "Agora",
+        "Azure"
+      ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Alaska Commercial",
+    link: 'https://citrusbits.com/portfolio/alaska-commercial-company/',
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
+      "Alaska Commercial Company is a retail company which provides groceries and general merchandise in stores throughout Alaska.",
+      tools: [
+        "React",
+        "React Native",
+        "TailwindCSS",
+        "MongoDB",
+        "Node.js",
+        "Azure"
+      ],
+    image: jobit,
+    // source_code_link: "https://github.com/",
+  },
+  // {
+  //   name: "Buuk",
+  //   link: 'https://buuk.app/',
+  //   description:
+  //     "A German book tracking platform",
+  //     tools: [
+  //       "Vue",
+  //       "Nuxt.js",
+  //       "Bootstrap",
+  //       "Angular Material",
+  //       "MongoDB",
+  //       "Docker",
+  //       "Nest.js",
+  //       "AWS"
+  //     ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Wes",
+  //   link: 'https://buuk.app/',
+  //   description:
+  //     "A German book tracking platform",
+  //     tools: [
+  //       "Vue",
+  //       "Nuxt.js",
+  //       "Bootstrap",
+  //       "Angular Material",
+  //       "MongoDB",
+  //       "Docker",
+  //       "Nest.js",
+  //       "AWS"
+  //     ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
+];
+
+const freelance = [
+  {
+    name: "Buuk",
+    link: 'https://buuk.app/',
+    description:
+      "A German book tracking platform",
+      tools: [
+        "Vue",
+        "Nuxt.js",
+        "Bootstrap",
+        "Angular Material",
+        "MongoDB",
+        "Docker",
+        "Nest.js",
+        "AWS"
+      ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Westage MFG",
+    link: 'https://westgatemfg.com/',
+    description:
+      "A platform for manufacturing and sales of electronic devices",
+      tools: [
+        "React",
+        "Next.js",
+        "Bootstrap",
+        "Ant Design",
+        "Postgres",
+        "Sequelize",
+        "Node.js",
+        "GCP"
+      ],
+    image: tripguide,
+    // source_code_link: "https://github.com/",
+  },
+  {
+    name: "LA Glatt Mart",
+    link: 'https://laglattmart.com/',
+    description:
+      "An E-commeric platform",
+      tools: [
+        "React",
+        "Next.js",
+        "Bootstrap",
+        "Ant Design",
+        "Postgres",
+        "Sequelize",
+        "Node.js",
+        "GCP"
+      ],
+    image: tripguide,
+    // source_code_link: "https://github.com/",
+  },
 ];
-
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, freelance };
