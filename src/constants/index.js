@@ -122,7 +122,7 @@ const experiences = [
     company_name: "Kitrum - Florida, United States",
     icon: kitrum,
     iconBg: "#31c6c9",
-    date: "August 2022 - Present",
+    date: "Jan 2023 - Present",
     points: [
       "Designed and developed an internal tool for Matchmakers to manage clients and dates which added a lot of value to the platform.",
       "Migrated legacy PHP app to faster React and Nodejs Application which greatly improved user experience and platform performance.",
@@ -151,7 +151,7 @@ const experiences = [
     company_name: "NOICE - Jakarta, Indonesia",
     icon: noice,
     iconBg: "#383E56",
-    date: "March 2022 - August 2023",
+    date: "Feb 2022 - June 2023",
     points: [
       "Performed an integral role in design and development of Live Service which is the core component of the platform.",
       "Architected, developed and incorporated the gamification module in the platform which is the core revenue generator for the platform.",
@@ -182,42 +182,11 @@ const experiences = [
     ]
   },
   {
-    title: "Team Lead Software Enginner",
-    company_name: "Luckytruck - McHenry, Illinois",
-    icon: luckytruck,
-    iconBg: "#E6DEDD",
-    date: "August 2021 - July 2022",
-    points: [
-      "Improved the verification module by scrapping trucking companies data from third party platforms into inhouse database which improved the verification process immensely.",
-      "Built a tool to automate the process of getting an insurance quote from third party platforms which reduced the need for the manual way of doing the same process.",
-      "Designed and developed Failure Identification Module for notifying the stakeholders in case of a quotation process failure by incorporating slack notifications and API logging resulting in earlier identification of problems and their resolution.",
-      "Used Next.js to improve SEO of the company’s website which greatly improved outreach of the platform.",
-      "Introduced the culture of unit testing which increased test coverage to a great number eventually resulting in much less bugs.",
-      "Forced the implementation of product documentation to ensure a robust software development process.",
-      "Was able to cover up for a Python Developer successfully in critical situations without impacting business goals."
-    ],
-    tools: [
-      "React",
-      "Next.js",
-      "TailwindCSS",
-      "Prime React",
-      "Node.js",
-      "Python",
-      "Django",
-      "Selenium",
-      "Prisma",
-      "Postgres",
-      "Docker",
-      "Lamdas",
-      "AWS"
-    ]
-  },
-  {
     title: "Senior Software Engineer",
     company_name: "Citrusbits - Pasadena, California",
     icon: citrusbits,
     iconBg: "#383E56",
-    date: "August 2020 - July 2021",
+    date: "August 2020 - Jan 2022",
     points: [
       "Named employee of the month, employee of quarter multiple times.",
       "Worked as Backend Team Lead for the top project of the company.",
@@ -251,7 +220,7 @@ const experiences = [
     company_name: "Cloudtek - Islamabad, Pakistan",
     icon: cloudtek,
     iconBg: "#E6DEDD",
-    date: "Jan 2019 - July 2020",
+    date: "Aug 2017 - Aug 2020",
     points: [
       "Employee of the Year 2019.",
       "Promoted to the position of Senior Software Engineer within the first three months of joining.",
@@ -277,35 +246,24 @@ const experiences = [
       "MySQL",
       "AWS"
     ]
-  },
-  {
-    title: "Software Engineer",
-    company_name: "ZixSols - Islamabad, Pakistan",
-    icon: zixsol,
-    iconBg: "#E6DEDD",
-    date: "September 2017 - December 2018",
-    points: [
-     "Learned a lot of new technologies in a very short time to enhance the company's overall technologies expertise thus attracting more clients.",
-     "Onboarded myself in a very limited time and got the responsibility to work on the main product",
-     "Mentored junior developers, improving team productivity and overall knowledge sharing.",
-     "Worked as the senior developer when another senior left the company to make sure continuous development and delivery of the on going projects",
-     "Lead and participated in design, development and implementation of three new projects adhering to best practices, coding standards and architectural guidelines",
-     "Learned best practices and coding standards thus improving my overall efficiency and productivity."
-    ],
-    tools: [
-      "Vue",
-      "Nuxt.js",
-      "React",
-      "Angular",
-      "Bootstrap",
-      "Material UI",
-      "Node.js",
-      "Firebase"
-    ]
-  },
+  }
 ];
 
 const testimonials = [
+  {
+    testimonial:"I worked with Malik for over a year at Tawkify through Kitrum. Malik is an engineer that showed great motivation, an ability to quickly ramp up on the javascript stack, and to deliver impact at great spead. I appreciated his efforts to be available on US hours, which is a testimony to his commitment to the project",
+    name: "Mikaël CASTELLAN",
+    designation: "Engineering Manager",
+    company: "Kitrum",
+    image: "https://media.licdn.com/dms/image/C4E03AQFKl6hqKYcFEw/profile-displayphoto-shrink_100_100/0/1517507088879?e=1703721600&v=beta&t=0B8xvq-NO6p1QIg3he0EUIbp7SuzU4erZNnvpd6NwEM",
+  },
+  {
+    testimonial:"We contracted Malik through Kitrum. He demonstrated an outstanding ability to consistently deliver quality software solutions with remarkable speed. Despite being on the opposite side of the world, he committed to working our core hours and found resourceful ways to unblock himself while awaiting clarifications. He responded well to feedback and his work demonstrably improved with each code review. Take the time to provide him clear requirements, give him good actionable feedback on deliverables and you'll have a valuable asset for any dev team.",
+    name: "Patrick Shih",
+    designation: "Founding Engineer",
+    company: "Kitrum",
+    image: "https://media.licdn.com/dms/image/C4E03AQFKl6hqKYcFEw/profile-displayphoto-shrink_100_100/0/1517507088879?e=1703721600&v=beta&t=0B8xvq-NO6p1QIg3he0EUIbp7SuzU4erZNnvpd6NwEM",
+  },
   {
     testimonial:
       "It was a pleasure working with Malik, and I can vouch that he is one of the most dedicated and hard working team member. He would always step up and take responsibilities when needed. He is never shy of expressing his opinions and gives valuable inputs in every discussion. He is also a good multitasker and can take ownership of several features.",
@@ -334,6 +292,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Noice Indonesia",
+    link: 'https://open.noice.id/',
+    description:
+      "Noice is a multi-vertical audio platform that brings vernacular content to Indonesian listeners. Noice provides a wide array of content like podcast, radio, and audiobook. Noice is also Indonesia's largest podcast network with over 100+ original shows across different genres. Our mission is to let everyone have more delightful screenless moments, one listen at a time.",
+    tools: [
+      "React",
+      "Nest.js",
+      "MySQL",
+      "MongoDB",
+      "Firebase",
+      "ElasticSearch",
+      "Redis",
+      "Microservices",
+      "Kafka",
+      "Agora",
+      "Pubnub",
+      "GCP"
+    ],
+    image: carrent,
+    // source_code_link: "https://github.com/",
+  },
   {
     name: "Feed U",
     link: 'https://www.feeduapp.com/',
@@ -384,42 +364,38 @@ const projects = [
     image: jobit,
     // source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Buuk",
-  //   link: 'https://buuk.app/',
-  //   description:
-  //     "A German book tracking platform",
-  //     tools: [
-  //       "Vue",
-  //       "Nuxt.js",
-  //       "Bootstrap",
-  //       "Angular Material",
-  //       "MongoDB",
-  //       "Docker",
-  //       "Nest.js",
-  //       "AWS"
-  //     ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Wes",
-  //   link: 'https://buuk.app/',
-  //   description:
-  //     "A German book tracking platform",
-  //     tools: [
-  //       "Vue",
-  //       "Nuxt.js",
-  //       "Bootstrap",
-  //       "Angular Material",
-  //       "MongoDB",
-  //       "Docker",
-  //       "Nest.js",
-  //       "AWS"
-  //     ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Urban Plates",
+    link: 'https://citrusbits.com/portfolio/urban-plates/',
+    description:
+      "Urban Plates is a fast-growing restaurant chain, whose focus on delicious, healthy, and affordable food is attracting a legion of passionate customers spanning from California to Washington D.C.",
+      tools: [
+        "React",
+        "React Native",
+        "TailwindCSS",
+        "MongoDB",
+        "Node.js",
+        "Azure"
+      ],
+    image: jobit,
+    // source_code_link: "https://github.com/",
+  },
+  {
+    name: "LoveSac",
+    link: 'https://citrusbits.com/portfolio/lovesac/',
+    description:
+      "LoveSac is a leading modern furniture brand in the United States. Specializing in a patented, modular furniture system called Sactionals — couches that are endlessly configurable and customizable — LoveSac has cultivated a passionate customer base throughout the country.",
+      tools: [
+        "React",
+        "Angular",
+        "TailwindCSS",
+        "MySQL",
+        "Node.js",
+        "Azure"
+      ],
+    image: jobit,
+    // source_code_link: "https://github.com/",
+  },
 ];
 
 const freelance = [
