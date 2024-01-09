@@ -254,14 +254,14 @@ const testimonials = [
     testimonial:"I worked with Malik for over a year at Tawkify through Kitrum. Malik is an engineer that showed great motivation, an ability to quickly ramp up on the javascript stack, and to deliver impact at great spead. I appreciated his efforts to be available on US hours, which is a testimony to his commitment to the project",
     name: "Mikaël CASTELLAN",
     designation: "Engineering Manager",
-    company: "Kitrum",
+    company: "Tawkify",
     image: "https://media.licdn.com/dms/image/C4E03AQFKl6hqKYcFEw/profile-displayphoto-shrink_100_100/0/1517507088879?e=1703721600&v=beta&t=0B8xvq-NO6p1QIg3he0EUIbp7SuzU4erZNnvpd6NwEM",
   },
   {
     testimonial:"We contracted Malik through Kitrum. He demonstrated an outstanding ability to consistently deliver quality software solutions with remarkable speed. Despite being on the opposite side of the world, he committed to working our core hours and found resourceful ways to unblock himself while awaiting clarifications. He responded well to feedback and his work demonstrably improved with each code review. Take the time to provide him clear requirements, give him good actionable feedback on deliverables and you'll have a valuable asset for any dev team.",
     name: "Patrick Shih",
     designation: "Founding Engineer",
-    company: "Kitrum",
+    company: "Tawkify",
     image: "https://media.licdn.com/dms/image/C4E03AQFKl6hqKYcFEw/profile-displayphoto-shrink_100_100/0/1517507088879?e=1703721600&v=beta&t=0B8xvq-NO6p1QIg3he0EUIbp7SuzU4erZNnvpd6NwEM",
   },
   {
@@ -292,6 +292,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Tawkify",
+    link: 'https://tawkify.com/home',
+    description:"Tawkify is the premier matchmaking service for singles who are serious about relationship success",
+      tools: [
+      "React",
+      "Nest.js",
+      "MySQL",
+      "GraphQL",
+      "React Native",
+      "PHP",
+      "ElasticSearch",
+      "Redis",
+      "Microservices",
+      "Docker",
+      "Kafka",
+      "Kubernetes",
+      "AWS"
+    ],
+    image: carrent,
+    // source_code_link: "https://github.com/",
+  },
   {
     name: "Noice Indonesia",
     link: 'https://open.noice.id/',
